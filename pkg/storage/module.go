@@ -25,7 +25,8 @@ func (s *Storage) Do() error {
 			"Chose action: \n" +
 				"(1) Get\n" +
 				"(2) Set\n" +
-				"(3) Delete")
+				"(3) Delete\n" +
+				"Enter number:")
 		input := ""
 		fmt.Scan(&input)
 
