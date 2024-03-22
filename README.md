@@ -19,7 +19,7 @@ The storage is implemented based on the map structure, which allows for the high
 
 ## Entity TTL
 All the entries will be expired automatically after a certain period of time (10 seconds by default)
-You can load your env:
+- You can load your env:
 ```
 TTL=5
 ```
@@ -39,6 +39,8 @@ To run the app execute following command
 ```
 | Command | Usage | Description |
 | --- | --- | --- |
-|`start`|    `./app start`    | Starts the entire application with interactive CLI interface |
-|`show`|    `./app show`    | Starts script that show basic functionality of the app (you can also use it for testing or checking healthz) |
+|`start`|    `./app start`    | Starts the entire application with 
+                                        interactive CLI interface |
+|`show`|    `./app show`    | Starts script that show basic functionality of 
+                            the app (you can also use it for testing or checking healthz) |
 
