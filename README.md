@@ -38,7 +38,7 @@ To run the app execute following command
 ./app [command]
 ```
 | Command | Usage | Description |
-| ----- | ----- | ----- |
+| --- | ----- | --- |
 |`start`| `./app start` | Starts the entire application with interactive CLI interface |
 |`show`| `./app show` | Starts script that show basic functionality of the app (you can also use it for testing or checking healthz) |
 
